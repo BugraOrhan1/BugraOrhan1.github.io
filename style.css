@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #f4f4f4;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.development-icons img {
+    max-width: 30px; /* Pas de maximale breedte van de afbeelding aan */
+    height: auto; /* Zorg ervoor dat de hoogte automatisch wordt aangepast om de aspectverhouding te behouden */
+    margin-right: 5px; /* Voeg wat ruimte toe tussen de afbeelding en de tekst */
+}
+
+.modules img {
+    max-width: 20px; /* Pas de maximale breedte van de afbeelding aan */
+    height: auto; /* Zorg ervoor dat de hoogte automatisch wordt aangepast om de aspectverhouding te behouden */
+    margin-right: 5px; /* Voeg wat ruimte toe tussen de afbeelding en de tekst */
+}
+
+.container img {
+    max-width: 20px; /* Pas de maximale breedte van de afbeelding aan */
+    height: auto; /* Zorg ervoor dat de hoogte automatisch wordt aangepast om de aspectverhouding te behouden */
+    margin-right: 5px; /* Voeg wat ruimte toe tussen de afbeelding en de tekst */
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.photo {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.photo img {
+    max-width: 200px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.intro-text {
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #333;
+}
+
+section {
+    padding: 40px 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer img {
+    vertical-align: middle;
+}
+
+.development-icons img,
+.modules img {
+    max-width: 30px;
+    height: auto;
+    margin-right: 5px;
+    vertical-align: middle;
+}
